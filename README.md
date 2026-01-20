@@ -6,3 +6,12 @@ How It Works
 
 * Our system uses machine learning to analyze email content, looking for patterns and keywords that are commonly associated with spam. Over time, it learns from new emails, improving its accuracy and adapting to evolving spam techniques. This means fewer false positives and more reliable filtering for users.
 
+Key Features
+
+* Automatic Detection: Emails are scanned and classified as spam or genuine without manual intervention.
+
+* Adaptive Learning: The model continuously improves as it encounters more emails.
+
+* Enhanced Security: Helps protect users from phishing attempts, scams, and malicious links.
+
+* Time Saver: Reduces the need to manually sort through unwanted messages.
