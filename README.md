@@ -15,3 +15,7 @@ Key Features
 * Enhanced Security: Helps protect users from phishing attempts, scams, and malicious links.
 
 * Time Saver: Reduces the need to manually sort through unwanted messages.
+
+Why It Matters
+
+* Spam emails are not just annoying they can also be dangerous. By filtering out spam automatically, this system helps users stay safe, focus on important messages, and enjoy a cleaner inbox.
