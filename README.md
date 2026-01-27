@@ -19,3 +19,10 @@ Key Features
 Why It Matters
 
 * Spam emails are not just annoying they can also be dangerous. By filtering out spam automatically, this system helps users stay safe, focus on important messages, and enjoy a cleaner inbox.
+
+Future Enhancements
+
+* Integrate with popular email clients (Gmail, Outlook, etc.)
+* Add a confidence score to indicate the likelihood of a message being spam
+* Support multi-language email detection
+* Include a feedback loop so users can mark false positives/negatives 
