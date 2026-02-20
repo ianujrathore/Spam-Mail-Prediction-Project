@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spam Mail Prediction System</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📧 Spam Mail Prediction System</h1>
+            <p>Enter an email message below to check if it's spam or not</p>
+        </header>
+
+        <main>
+            <div class="input-section">
+                <textarea 
+                    id="message-input" 
+                    placeholder="Type or paste your email message here..."
+                    rows="8"
+                ></textarea>
+                
+                <button id="predict-btn" onclick="predictSpam()">
+                    <span class="btn-text">Check Message</span>
+                    <span class="loading-spinner" style="display: none;">🔄</span>
+                </button>
+            </div>
+
+            <div class="result-section" id="result-section" style="display: none;">
+                <h2>Analysis Result</h2>
+                
+                <div class="result-card">
+                    <div class="message-preview">
+                        <strong>Message:</strong>
+                        <p id="message-preview"></p>
+                    </div>
+                    
+                    <div class="prediction-container">
+                        <div class="prediction-badge" id="prediction-badge"></div>
+                        
+                        <div class="confidence-meter">
+                            <div class="confidence-label">
+                                <span>Confidence Score</span>
+                                <span id="confidence-value">0%</span>
+                            </div>
+                            <div class="meter-bar">
+                                <div class="meter-fill" id="meter-fill" style="width: 0%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <button class="reset-btn" onclick="resetForm()">Check Another Message</button>
+            </div>
+        </main>
+
+        <footer>
+            <p>Built with Machine Learning | Logistic Regression | TF-IDF</p>
+        </footer>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
