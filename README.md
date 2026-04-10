@@ -25,4 +25,26 @@ Future Enhancements
 * Integrate with popular email clients (Gmail, Outlook, etc.)
 * Add a confidence score to indicate the likelihood of a message being spam
 * Support multi-language email detection
-* Include a feedback loop so users can mark false positives/negatives 
+* Include a feedback loop so users can mark false positives/negatives
+
+## Tech Stack
+
+### Backend
+- **Python 3.12** - Main programming language
+- **scikit-learn 1.3.0** - Machine learning algorithms
+- **pandas 2.0.3** - Data manipulation
+- **numpy 1.24.3** - Numerical computations
+- **Flask 2.3.2** - Web server & API framework
+- **Flask-CORS 4.0.0** - Cross-origin requests
+- **joblib 1.3.2** - Model serialization
+
+### Machine Learning
+- **TF-IDF Vectorizer** - Converts text to numerical features
+- **Logistic Regression** - Classification algorithm
+- **Train-Test Split (80-20)** - Data splitting strategy
+
+### Frontend
+- **HTML5** - Page structure
+- **CSS3** - Styling with gradients & animations
+- **JavaScript** - User interactions & API calls
+- **Fetch API** - Async communication
